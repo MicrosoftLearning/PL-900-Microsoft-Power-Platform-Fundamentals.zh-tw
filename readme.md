@@ -1,35 +1,43 @@
-﻿# PL-900：Power Platform 基本概念
+---
+ms.openlocfilehash: 4ed3e8f1b4b97a760aeb60cff93ad06b89fedd6a
+ms.sourcegitcommit: ef58c858463b890e923ef808b1d43405423943fd
+ms.translationtype: HT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/27/2022
+ms.locfileid: "137898872"
+---
+# <a name="pl-900-power-platform-fundamentals"></a>PL-900：Power Platform 基本概念
 
-- **[下載最新學生手冊和所有檔案內容](../../releases/latest)**
-- **您是 MCT 嗎？** - 請參閱[適用於 MCT 的 GitHub 使用者指南](https://microsoftlearning.github.io/MCT-User-Guide/)
-- **需要手動建立實驗室指示嗎？** - 您可以在 [MicrosoftLearning/Docker-Build](https://github.com/MicrosoftLearning/Docker-Build) 存放庫中取得指示
+- **[下載最新摸摸學員手冊和 AllFiles 內容](../../releases/latest)**
+- **您是 MCT 嗎？** 請參閱我們專為 MCT 準備的 [GitHub User Guide for MCTs](https://microsoftlearning.github.io/MCT-User-Guide/) (適用於 MCT 的 GitHub 使用者指南)
+- **需要手動建立實驗室指示嗎？** - [MicrosoftLearning/Docker-Build](https://github.com/MicrosoftLearning/Docker-Build) 存放庫中備有指示
 
-## 我們需要做什麼？
+## <a name="what-are-we-doing"></a>我們要做什麼？
 
 - 為了支援本課程，我們需要經常更新課程內容，讓它與本課程所使用的 Power Platform 服務一起保持在最新狀態。  我們在 GitHub 上發佈實驗室指示和實驗室檔案，讓課程作者和 MCT 能夠彼此公開貢獻內容， 讓內容隨著平台中的變更保持在最新狀態。
 
-- 希望這樣做能在實驗室中打造一種前所未有的共同作業模式，也就是說，當 Power Platform 變更，而您先在即時授課期間發現該變更，您可以直接在實驗室原始碼中進行強化。  這會對您的 MCT 同事有所幫助。
+- 希望這樣做能在實驗室中打造一種前所未有的共同作業模式，也就是說，當 Power Platform 變更，而您先在即時授課期間發現該變更，您可以直接在實驗室原始碼中進行強化。  幫助您的 MCT 同業。
 
-## 我該如何使用這些與已發佈 MOC 檔案相關的檔案？
+## <a name="how-should-i-use-these-files-relative-to-the-released-moc-files"></a>我該如何使用與相對於已釋放的 MOC 檔案之這些檔案？
 
-- 講師手冊和 PowerPoint 仍會是您授課內容的主要來源。
+- 講師手冊和 PowerPoints 仍然會成為您教導課程內容的主要來源。
 
-- GitHub 上的這些檔案是專為與學生手冊搭配使用所設計，但這些檔案在 GitHub 中可做為集中儲存機制，讓 MCT 和課程作者能夠擁有最新實驗室檔案的共用來源。
+- GitHub 上的這些檔案是為了與學生手冊搭配使用所設計，但這些檔案在 GitHub 上會作為中央存放庫，讓 MCT 和課程製作者可以共用最新的實驗室檔案來源。
 
-- 建議講師針對所有授課檢查 GitHub 是否已做出可支援最新 Azure 服務的任何變更，並為其授課取得最新檔案。
+- 建議訓練師每次授課時檢查 GitHub 所做任何變更，以支援最新的 Azure 服務，並在他們授課時獲得最新檔案。
 
-## 那麼學生手冊的變更呢？
+## <a name="what-about-changes-to-the-student-handbook"></a>那對學生手冊的改動呢？
 
-- 我們會每季定期檢閱學生手冊，並視需要透過一般 MOC 發佈管道進行更新。
+- 我們將每季審查一次學生手冊，並視需要透過常規的 MOC 發佈管道加以更新。
 
-## 如何貢獻內容？
+## <a name="how-do-i-contribute"></a>我要怎麼參與？
 
-- 任何 MCT 都可以將提取要求提交到 GitHub 儲存機制中的程式碼或內容，Microsoft 和課程作者會視需要分級並納入內容和實驗室程式碼變更。
+- 任何 MCT 都可以對 GitHub 存放庫的程式碼或內容提交提取要求，Microsoft 和課程製作者會視需要分級和歸納內容和實驗室程式碼。
 
-- 您可以提交錯誤、變更、改善措施和構想。  比我們更早找到新的 Azure 功能嗎？  歡迎提交新的示範！
+- 可以提交 bug、變更、改進和想法。  在我們有之前尋找新的 Azure 功能嗎？  提交新的示範！
 
-## 附註
+## <a name="notes"></a>備註
 
-### 教室教材
+### <a name="classroom-materials"></a>教室教材
 
-強烈建議 MCT 和合作夥伴存取這些教材，並進而另行將其提供給學生。  如果直接在進行課程的過程中引導學生前往 GitHub 存取實驗室步驟，那麼學生就必須在課程過程中存取另一個 UI，這會對學生的體驗造成混淆。您可以向學生說明有關他們為何收到個別實驗室指示的原因，藉此強調雲端式介面和平台瞬息萬變的性質。Microsoft Learning 支援在 GitHub 上存取檔案並且支援 GitHub 網站導覽 (僅限於教授這堂課程的 MCT)。
+強烈建議 MCT 和合作夥伴存取這些教材，再個別提供給學生。  在課程進行時，若將學生直接導向 GitHub 來存取實驗室步驟，學生將需要在過程中存取其他 UI，這會使學生感到混淆。 向學生解釋他們收到單獨實驗室指示的原因，可突顯出雲端式介面和平台不斷變化的本質。 Microsoft Learning 對 GitHub 檔案的存取支援和 GitHub 網站的瀏覽支援，僅提供給教授本課程的 MCT 使用。
