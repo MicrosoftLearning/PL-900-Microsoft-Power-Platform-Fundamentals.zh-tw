@@ -2,18 +2,16 @@
 lab:
   title: 實驗室：驗證實驗室環境
   module: 'Module 0: Course introduction'
-ms.openlocfilehash: f98bf8aee0be31934acee15f3b5668d3e6e6108a
-ms.sourcegitcommit: ef58c858463b890e923ef808b1d43405423943fd
+ms.openlocfilehash: e69074549dddd4494db53a9ccb9ebfb3ae198d48
+ms.sourcegitcommit: fc79a9b68a8235b37fd90ef84ba8ae1aa2e581f5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/27/2022
-ms.locfileid: "137898830"
+ms.lasthandoff: 04/30/2022
+ms.locfileid: "144424699"
 ---
-<a name="module-0-course-introduction"></a>課程模組 0：課程簡介
-=================================
+# <a name="module-0-course-introduction"></a>課程模組 0：課程簡介
 
-<a name="scenario"></a>案例
---------
+## <a name="scenario"></a>案例
 
 Bellows College 是一個教育組織，校園內有多棟大樓。 校園訪客目前記錄在紙本日誌中。 此資訊並未以一致的方式擷取，而且也無法收集和分析整個校園造訪情形的相關資料。
 
@@ -27,62 +25,36 @@ Bellows College 是一個教育組織，校園內有多棟大樓。 校園訪客
 
 ### <a name="task-1---acquire-your-microsoft-power-platform-trial-tenant"></a>工作 1：取得您的 Microsoft  Power Platform 試用版租用戶
 
-1. 從授權實驗室主機服務提供者複製您的 **Microsoft 365 認證**。
+1.  從授權實驗室主機服務提供者複製您的 **Microsoft 365 認證**。
 
-2. 瀏覽至 <https://powerapps.microsoft.com> ，然後按一下 [免費開始]。
+2.  瀏覽至 <https://powerapps.microsoft.com> ，然後按一下 [免費開始]。
 
-3. 在 **[開始使用]** 底下，於顯示 **[輸入您的工作電子郵件地址]** 的文字方塊中，輸入 Microsoft 365 認證的電子郵件地址。
+3.  在 **[開始使用]** 底下，於顯示 **[輸入您的工作電子郵件地址]** 的文字方塊中，輸入 Microsoft 365 認證的電子郵件地址。
 
-4. 您會看到提示字元，說明您已具備現有的 Microsoft 帳戶。 選取 **[登入]** 。
+4.  您會看到提示字元，說明您已具備現有的 Microsoft 帳戶。 選取 **[登入]** 。
 
-5. 輸入授權實驗室主機服務提供者提供的密碼。 
+5.  輸入授權實驗室主機服務提供者所提供的密碼並登入。
 
-6. 選取 **[是]** 以保持登入狀態。
+6.  選取 **[是]** 以保持登入狀態。
 
-7. 填寫您的帳戶資訊，然後選取 [開始使用]，以註冊您的 Microsoft Power Platform 試用版。  
+7.  填寫您的帳戶資訊，然後選取 [開始使用]，以註冊您的 Microsoft Power Platform 試用版。
 
 ### <a name="task-2--create-environment"></a>工作 \#2：建立環境
 
-1. 若再次出現提示，請使用您的 Microsoft 365 認證，存取 <https://admin.powerplatform.microsoft.com> 並登入。
+1.  若出現提示，請使用您的 Microsoft 365 認證，存取 <https://admin.powerplatform.microsoft.com> 並登入。
 
-2. 選取 **[環境]** ，然後按一下 **[+ 新增]** 。
+2.  選取 **[環境]** ，然後按一下 **[+ 新增]** 。
 
-    - 針對 **[名稱]** ，輸入 **[我的縮寫名] 練習**。 (範例：AJ 練習。)
-    
-    - 針對 **[類型]** ，選取 **[試用]** (請勿選取 [試用 (訂閱型)] 選項)。
-    
-    - 將 **[是否為此環境建立資料庫?]** 上的開關變更為 **[是]** 。
-    
-    - 將所有其他選項保留為預設值，然後按 **[下一步]** 。
-    
-    - 在下一個索引標籤中，將所有選項保留為預設值，然後按一下 **[儲存]** 。
+    1.  針對 **[名稱]** ，輸入 **[我的縮寫名] 練習**。 (範例：AJ 練習。)
 
-3. 您的 **練習** 環境應會顯示在環境清單中。 
+    2.  針對 **[類型]** ，選取 **[試用]** (請勿選取 [試用 (訂閱型)] 選項)。
 
-    > 您的環境可能需要幾分鐘的時間來佈建。 請視需要重新整理頁面。
+    3.  將 **[是否為此環境建立資料庫?]** 上的開關變更為 **[是]** 。
 
-# <a name="exercise-2-provision-a-power-apps-portal"></a>練習 \#2：佈建 Power Apps 入口網站
+    4.  將所有其他選項保留為預設值，然後按 **[下一步]** 。
 
-**目標：** 佈建 Power Apps 入口網站可能需要一些時間。 在此練習中，您將在自己的環境中建立 Power Apps 入口網站，以便啟動佈建程序。 您將在稍後的實驗室中用到此入口網站。
+    5.  在下一個索引標籤中，將所有選項保留為預設值，然後按一下 **[儲存]** 。
 
-## <a name="task-1-create-power-apps-portal"></a>工作 \#1：建立 Power Apps 入口網站
+3.  您的 **練習** 環境應會顯示在環境清單中。
 
-1.  登入 <https://make.powerapps.com>
-
-2.  如果右上方顯示的 **環境** 並非您的練習環境，請按一下選取您的環境。
-
-3.  在 [首頁] 頁面中，按一下 **[建立自己的應用程式]** 底下的 **[空白的入口網站]** 面板。
-
-    > 如果您沒有看到此選項，請嘗試縮小畫面。
-
-4.  提供新入口網站的詳細資料。
-
-    -   輸入 **```Bellows College Visitors```** 作為入口網站 **名稱**
-
-    -   提供唯一的 URL；**某名稱**.powerappsportals.com (如果該名稱已有人使用，請選擇其他名稱)
-
-    -   選取基礎入口網站 **語言**
-
-    -   按一下 [建立] 
-
-    > 入口網站佈建程序將執行 30 至 45 分鐘。 您不需要等待，因為移至下一個單元時，此程序仍會繼續執行。
+>   您的環境可能需要幾分鐘的時間來佈建。 請視需要重新整理頁面。
