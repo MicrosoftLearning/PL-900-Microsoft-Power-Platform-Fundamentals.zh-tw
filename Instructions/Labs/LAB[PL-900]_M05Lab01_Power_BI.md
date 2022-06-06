@@ -1,13 +1,13 @@
 ---
 lab:
-  title: 實驗 7：如何建立簡單的儀表板
+  title: 實驗室 5：如何建立簡單的儀表板
   module: 'Module 5: Get Started with Power BI'
-ms.openlocfilehash: b707cbf6b60af3b6d6a166565ccdeaeec844cb4a
-ms.sourcegitcommit: fc79a9b68a8235b37fd90ef84ba8ae1aa2e581f5
+ms.openlocfilehash: 8d104c42de9d4114c668a63a4d8d30cbbcc4b39e
+ms.sourcegitcommit: 36c8fda9cdc6f448416d7000e38c1606bea87d2e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/30/2022
-ms.locfileid: "144424651"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "144812931"
 ---
 # <a name="module-5-get-started-with-power-bi"></a>課程模組 5：開始使用 Power BI
 ## <a name="lab-how-to-build-a-simple-dashboard"></a>實驗室：如何建立簡單的儀表板
@@ -58,7 +58,7 @@ Bellows College 是一個教育組織，校園內有多棟大樓。 校園訪客
 
 ## <a name="task-1-prepare-power-bi-service"></a>工作 \#1：Power BI 服務的準備工作
 
-1.  下載 [visits.pbix](../../Allfiles/visits.pbix) 並儲存在您的電腦上。
+1.  下載 [visits.pbix](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/raw/master/Allfiles/visits.pbix) 並儲存在您的電腦上。
 
 2.  視需要瀏覽至 <https://app.powerbi.com/> 並登入。
 
@@ -80,7 +80,7 @@ Bellows College 是一個教育組織，校園內有多棟大樓。 校園訪客
 
 1.  按 [視覺效果] 面板中的 [圓形圖] 圖示以插入圖表。
 
-2.  在 [欄位] 窗格中，按 [bc_Building] 旁邊的下拉式箭號。 拖曳 **[大樓]** 欄位，然後將其拖放至 **[圖例]** 方塊中。
+2.  在 [欄位] 窗格中，按 [bc_name] 旁邊的下拉式箭號。 拖曳 **[大樓]** 欄位，然後將其拖放至 **[圖例]** 方塊中。
 
 3.  在 [欄位] 窗格中，按 [bc_Visit] 旁邊的下拉式箭號。 拖曳 [造訪] 欄位，然後將其拖放至 [值] 方塊。
 
@@ -98,9 +98,9 @@ Bellows College 是一個教育組織，校園內有多棟大樓。 校園訪客
 
 10. 測試報告互動功能：
 
-    1.  選取圓形圖上不同的大樓圖塊，並觀察時間報告的變化。
+    1.  按一下圓形圖上不同的大樓圖塊，並觀察時間報告的變化。
 
-    2.  按一下直條圖。 按向下鍵以開啟 [向下鑽研] 模式，然後按一下直條圖以向下鑽研至下一個層級 (日)。 
+    2.  按一下直條圖。 按向下箭號以開啟 **向下鑽研** 模式 (或以滑鼠右鍵按一下圖表並選取 [向下鑽研])，然後按一下資料行以向下鑽研至下一個層級 (天)。 
     
     3.  向上及向下鑽研，然後選取時間直條圖上的不同直條以觀察圓形圖報告的變化。
 
