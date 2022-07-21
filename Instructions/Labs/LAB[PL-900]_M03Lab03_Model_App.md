@@ -2,12 +2,12 @@
 lab:
   title: 實驗室 3：如何建置模型導向應用程式
   module: 'Module 3: Get started with Power Apps'
-ms.openlocfilehash: ed98e1f2c2ff900f84b98910e0ef2d14d130f462
-ms.sourcegitcommit: dbffa13e13419f5b9aadc894eb95fd16215b2ebf
+ms.openlocfilehash: c69ca883cc8f8c8b00ed3f67fb18f93b035726e3
+ms.sourcegitcommit: 50e1a519a6893e02a4a0c2c6bef93cafd2513611
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/17/2022
-ms.locfileid: "146458371"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "147125758"
 ---
 # <a name="module-3-get-started-with-power-apps"></a>模組 3：開始使用 Power Apps
 ## <a name="lab-how-to-build-a-model-driven-app"></a>實驗室：如何建置模型導向應用程式
@@ -234,7 +234,7 @@ Bellows College 是一個教育組織，校園內有多棟大樓。 校園訪客
 
 2. 建立新的「連絡人」
 
-    0. 應用程式應開啟至 [我的現行連絡人] 檢視。 如果沒有，請選取左側的 [造訪情形]。
+    0. 應用程式應開啟至 [我的現行連絡人] 檢視。 如果沒有，請選取左側的 [連絡人]。
 
     1. 從頂端功能表中按一下 **[新增]** 。
 
