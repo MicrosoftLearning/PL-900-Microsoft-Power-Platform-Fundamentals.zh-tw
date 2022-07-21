@@ -2,12 +2,12 @@
 lab:
   title: 實驗室 5：如何建立簡單的儀表板
   module: 'Module 5: Get Started with Power BI'
-ms.openlocfilehash: 8d104c42de9d4114c668a63a4d8d30cbbcc4b39e
-ms.sourcegitcommit: 36c8fda9cdc6f448416d7000e38c1606bea87d2e
+ms.openlocfilehash: 1df94fcda0e59554c10ed772314e5138936b73a8
+ms.sourcegitcommit: 50e1a519a6893e02a4a0c2c6bef93cafd2513611
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "144812931"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "147125734"
 ---
 # <a name="module-5-get-started-with-power-bi"></a>課程模組 5：開始使用 Power BI
 ## <a name="lab-how-to-build-a-simple-dashboard"></a>實驗室：如何建立簡單的儀表板
@@ -88,9 +88,9 @@ Bellows College 是一個教育組織，校園內有多棟大樓。 校園訪客
 
 5.  按一下圓形圖外部的報告以取消選取，然後在 **[視覺效果]** 窗格中選取堆疊直條圖。
 
-6.  在 [欄位] 窗格中，按 [bc_Visit] 旁邊的下拉式箭號。 拖曳 [造訪] 欄位，然後將其拖放至 [值] 方塊。
+6.  在 [欄位] 窗格中，按 [bc_Visit] 旁邊的下拉式箭號。 拖曳 [造訪情形] 欄位，然後將其拖放至 [Y 軸] 目標方塊中。
 
-7.  拖曳 **[開始時間]** 欄位，然後將其拖放至 **[軸]** 目標方塊中。
+7.  拖曳 [開始時間] 欄位，然後將其拖放至 [X 軸] 目標方塊中。
 
 8.  在 [視覺效果] 窗格中，按一下 [年] 和 [季] 旁邊的 **x**，僅保留 [軸] 的 [月] 和 **[日]** 總計。
 
