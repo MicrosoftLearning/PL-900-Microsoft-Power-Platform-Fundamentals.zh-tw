@@ -2,17 +2,16 @@
 lab:
   title: 實驗室 5：如何建立簡單的儀表板
   module: 'Module 5: Get Started with Power BI'
-ms.openlocfilehash: 8d104c42de9d4114c668a63a4d8d30cbbcc4b39e
-ms.sourcegitcommit: 36c8fda9cdc6f448416d7000e38c1606bea87d2e
+ms.openlocfilehash: 2fb53fa9130cae4a711b11f341ea663f019c94c8
+ms.sourcegitcommit: 8a89b7eacd1a65eaa7c5d6bff0dc7254991c4dde
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "144812931"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "147154440"
 ---
-# <a name="module-5-get-started-with-power-bi"></a>課程模組 5：開始使用 Power BI
-## <a name="lab-how-to-build-a-simple-dashboard"></a>實驗室：如何建立簡單的儀表板
+## <a name="lab-5-how-to-build-a-simple-dashboard"></a>實驗室 5：如何建立簡單的儀表板
 
-# <a name="scenario"></a>案例
+## <a name="scenario"></a>案例
 
 Bellows College 是一個教育組織，校園內有多棟大樓。 校園訪客目前記錄在紙本日誌中。 此資訊並未以一致的方式擷取，而且也無法收集和分析整個校園造訪情形的相關資料。
 
@@ -20,43 +19,33 @@ Bellows College 是一個教育組織，校園內有多棟大樓。 校園訪客
 
 在整個課程中，您將建立應用程式並執行自動化功能，以便 Bellows College 的行政和保全人員能夠管理及控管校內大樓的出入狀況。
 
-在此實驗室中，您將建立可視覺化校園造訪情形相關資料的 Power BI 儀表板。
+在此實驗室中，您將建立可視覺化校園造訪情形相關資料的 Power BI 報表和儀表板。
 
-# <a name="high-level-lab-steps"></a>高階實驗室步驟
+## <a name="high-level-lab-steps"></a>高階實驗室步驟
 
 我們將依照下列步驟設計和建立 Power BI 儀表板：
 
--   連接至 Dataverse
-
--   轉換資料以包含相關資料列 (查詢) 的易用描述
-
--   建立並發佈含有校園造訪情形資訊之各種視覺效果的報告
+-   建立含有校園造訪情形資訊之各種視覺效果的報告
 
 -   利用使用者自然語言建立其他視覺效果
 
--   建立 Power BI 儀表板的行動裝置檢視
-
 ## <a name="prerequisites"></a>必要條件
 
--   完成 **單元 0 實驗室 0：驗證實驗室環境**
-
--   完成 **單元 2 實驗室 1：Microsoft Dataverse 簡介**
+- 完成 **單元 0 實驗室 0：驗證實驗室環境**
+- 完成 **課程模組 2 實驗室 1 - 資料模型化**
 
 ## <a name="things-to-consider-before-you-begin"></a>開始前要考慮的事項
 
 -   誰是報告的目標對象？
-
 -   這些對象會如何使用報告？ 一般裝置？ 位置？
-
 -   您是否有足夠的資料可以視覺化？
-
 -   您可以用於分析造訪情形相關資料的可能特性有哪些？
 
-# <a name="exercise-1-create-power-bi-report"></a>練習 1：建立 Power BI 報告
+## <a name="exercise-1-create-power-bi-report"></a>練習 1：建立 Power BI 報告
 
 **目標：** 在此練習中，您會根據我們在上一個練習中運用的 Excel 試算表資料，建立 Power BI 報表。
 
-## <a name="task-1-prepare-power-bi-service"></a>工作 \#1：Power BI 服務的準備工作
+### <a name="task-1-prepare-power-bi-service"></a>工作 \#1：Power BI 服務的準備工作
 
 1.  下載 [visits.pbix](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/raw/master/Allfiles/visits.pbix) 並儲存在您的電腦上。
 
@@ -70,17 +59,17 @@ Bellows College 是一個教育組織，校園內有多棟大樓。 校園訪客
 
 6.  找到並選取您之前下載的 **visits.pbix** 檔案。
 
-7.  資料載入完成後，請選取 [瀏覽次數] 報告 (請注意，該[類型] 已設定為 [報告])。
+7.  資料載入完成後，請展開 [我的工作區] 選取 **造訪情形** 報告 (請注意，該[類型] 已設定為 [報告])。
 
 8.  按一下 **[編輯]** 。 如果未出現 [編輯] 功能表項目，請按一下 [...]，然後選取 [編輯]。
 
-您現在已設定好 Power BI 服務並可用於實驗室中。 
+您現在已設定好 Power BI 服務並可用於實驗室中。
 
-## <a name="task-2-create-chart-and-time-visualizations"></a>工作 \#2：建立圖表和時間視覺效果
+### <a name="task-2-create-chart-and-time-visualizations"></a>工作 \#2：建立圖表和時間視覺效果
 
 1.  按 [視覺效果] 面板中的 [圓形圖] 圖示以插入圖表。
 
-2.  在 [欄位] 窗格中，按 [bc_name] 旁邊的下拉式箭號。 拖曳 **[大樓]** 欄位，然後將其拖放至 **[圖例]** 方塊中。
+2.  在 [欄位] 窗格中，按 [bc_building] 旁邊的下拉式箭號。 拖曳 **[大樓]** 欄位，然後將其拖放至 **[圖例]** 方塊中。
 
 3.  在 [欄位] 窗格中，按 [bc_Visit] 旁邊的下拉式箭號。 拖曳 [造訪] 欄位，然後將其拖放至 [值] 方塊。
 
@@ -88,9 +77,9 @@ Bellows College 是一個教育組織，校園內有多棟大樓。 校園訪客
 
 5.  按一下圓形圖外部的報告以取消選取，然後在 **[視覺效果]** 窗格中選取堆疊直條圖。
 
-6.  在 [欄位] 窗格中，按 [bc_Visit] 旁邊的下拉式箭號。 拖曳 [造訪] 欄位，然後將其拖放至 [值] 方塊。
+6.  在 [欄位] 窗格中，按 [bc_Visit] 旁邊的下拉式箭號。 拖曳 [造訪情形] 欄位，然後將其拖放至 [Y 軸] 目標方塊中。
 
-7.  拖曳 **[開始時間]** 欄位，然後將其拖放至 **[軸]** 目標方塊中。
+7.  拖曳 [開始時間] 欄位，然後將其拖放至 [X 軸] 目標方塊中。
 
 8.  在 [視覺效果] 窗格中，按一下 [年] 和 [季] 旁邊的 **x**，僅保留 [軸] 的 [月] 和 **[日]** 總計。
 
@@ -100,15 +89,15 @@ Bellows College 是一個教育組織，校園內有多棟大樓。 校園訪客
 
     1.  按一下圓形圖上不同的大樓圖塊，並觀察時間報告的變化。
 
-    2.  按一下直條圖。 按向下箭號以開啟 **向下鑽研** 模式 (或以滑鼠右鍵按一下圖表並選取 [向下鑽研])，然後按一下資料行以向下鑽研至下一個層級 (天)。 
-    
+    2.  按一下直條圖。 按向下箭號以開啟 **向下鑽研** 模式 (或以滑鼠右鍵按一下圖表並選取 [向下鑽研])，然後按一下資料行以向下鑽研至下一個層級 (天)。
+
     3.  向上及向下鑽研，然後選取時間直條圖上的不同直條以觀察圓形圖報告的變化。
 
 11. 按 [儲存] 以儲存行中的工作。
 
-# <a name="exercise-2-create-power-bi-dashboard"></a>練習 \#2：建立 Power BI 儀表板
+## <a name="exercise-2-create-power-bi-dashboard"></a>練習 2：建立 Power BI 儀表板
 
-## <a name="task-1-create-power-bi-dashboard"></a>工作 \#1：建立 Power BI 儀表板
+### <a name="task-1-create-power-bi-dashboard"></a>工作 \#1：建立 Power BI 儀表板
 
 1.  您應該透過上一個工作將報告保持開啟狀態。
 
@@ -118,13 +107,11 @@ Bellows College 是一個教育組織，校園內有多棟大樓。 校園訪客
 
 4.  輸入 [校園管理] 做為 [儀表板名稱]，然後按下 [動態釘選]。
 
-5.  選取位於頂端的 **[我的工作區]** ，然後選取 **[(您的姓氏) 校園管理]** 儀表板。
+5.  快顯視窗會提示您已建立儀表板。 選取 [移至儀表板]。
 
-6.  快顯視窗會提示您已建立儀表板。 選取 [移至儀表板]。
+6.  測試顯示之圓形圖和長條圖的互動功能。
 
-7.  測試顯示之圓形圖和長條圖的互動功能。
-
-## <a name="task-2-add-visualizations-using-natural-language"></a>工作 \#2：使用自然語言新增視覺效果
+### <a name="task-2-add-visualizations-using-natural-language"></a>工作 \#2：使用自然語言新增視覺效果
 
 1.  在 **[校園管理]** 儀表板中，選取位於頂端的 **[詢問有關資料的問題]** 列。
 
