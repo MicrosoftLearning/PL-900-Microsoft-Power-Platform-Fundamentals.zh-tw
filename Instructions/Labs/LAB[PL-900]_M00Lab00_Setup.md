@@ -8,13 +8,13 @@ lab:
 
 ## <a name="scenario"></a>案例
 
-Bellows College is an educational organization with multiple buildings on campus. Campus visitors are currently recorded in paper journals. The information is not captured consistently, and there are no means to collect and analyze data about the visits across the entire campus.
+Bellows College 是一個教育組織，校園內有多棟大樓。 校園訪客目前記錄在紙本日誌中。 此資訊並未以一致的方式擷取，而且也無法收集和分析整個校園造訪情形的相關資料。
 
 校園行政單位想要更新其訪客登記系統，讓保全人員控管各棟大樓的出入狀況，且所有造訪情形都必須由大樓負責人預先登記和記錄。
 
 在整個課程中，您將建立應用程式並執行自動化功能，以便 Bellows College 的行政和保全人員能夠管理及控管校內大樓的出入狀況。
 
-In this Module 0 lab, you will acquire a Power Platform trial and access the Power Platform admin center. In the admin center, you will then create a <bpt id="p1">**</bpt>Practice<ept id="p1">**</ept> environment that you will perform the majority of your lab work in.
+在此單元 0 實驗室中，您將會取得 Power Platform 試用並存取 Power Platform 系統管理中心。 在系統管理中心中，您將會建立**練習**環境，在其中執行大部分實驗室工作。
 
 ## <a name="exercise-1--setup"></a>練習 1：設定
 
@@ -26,7 +26,7 @@ In this Module 0 lab, you will acquire a Power Platform trial and access the Pow
 
 1. 在**開始使用**底下，於顯示 [輸入您的工作電子郵件地址] 的文字方塊中，輸入 Microsoft 365 認證的電子郵件地址，然後按一下 [下一步]。
 
-1. If you see a prompt that you have an existing account with Microsoft. Select <bpt id="p1">**</bpt>Sign in<ept id="p1">**</ept>.
+1. 如果看到提示字元，說明您已具備現有的 Microsoft 帳戶。 選取 [登入]。
 
 1. 輸入授權實驗室主機服務提供者所提供的密碼並登入。
 
@@ -34,7 +34,7 @@ In this Module 0 lab, you will acquire a Power Platform trial and access the Pow
 
 1. 請勿變更國家/地區。
 
-1. 針對 [電話號碼]，輸入 01234567890。
+1. 針對 **[電話號碼**]，輸入 0123456789。
 
 1. 填寫您的帳戶資訊，然後選取 [開始使用]，以註冊您的 Microsoft Power Platform 試用版。
 
@@ -62,4 +62,4 @@ In this Module 0 lab, you will acquire a Power Platform trial and access the Pow
 
 1. 您的**練習**環境應會顯示在環境清單中。
 
-> Your environment may take a few minutes to provision. Refresh the page if needed.
+> 您的環境可能需要幾分鐘的時間來佈建。 請視需要重新整理頁面。

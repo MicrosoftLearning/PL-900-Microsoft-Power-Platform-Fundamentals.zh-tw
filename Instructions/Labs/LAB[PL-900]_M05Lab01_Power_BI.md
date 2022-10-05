@@ -8,7 +8,7 @@ lab:
 
 ## <a name="scenario"></a>案例
 
-Bellows College is an educational organization with multiple buildings on campus. Campus visitors are currently recorded in paper journals. The information is not captured consistently, and there are no means to collect and analyze data about the visits across the entire campus.
+Bellows College 是一個教育組織，校園內有多棟大樓。 校園訪客目前記錄在紙本日誌中。 此資訊並未以一致的方式擷取，而且也無法收集和分析整個校園造訪情形的相關資料。
 
 校園行政單位想要更新其訪客登記系統，讓保全人員控管各棟大樓的出入狀況，且所有造訪情形都必須由大樓負責人預先登記和記錄。
 
@@ -32,7 +32,7 @@ Bellows College is an educational organization with multiple buildings on campus
 ## <a name="things-to-consider-before-you-begin"></a>開始前要考慮的事項
 
 -   誰是報告的目標對象？
--   How will the audience consume the report? Typical device? Location?
+-   這些對象會如何使用報告？ 一般裝置？ 位置？
 -   您是否有足夠的資料可以視覺化？
 -   您可以用於分析造訪情形相關資料的可能特性有哪些？
 
@@ -56,7 +56,7 @@ Bellows College is an educational organization with multiple buildings on campus
 
 7.  資料載入完成後，請展開 [我的工作區] 選取**造訪情形**報告 (請注意，該[類型] 已設定為 [報告])。
 
-8.  Click <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept>. If <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept> menu item is not visible click <bpt id="p2">**</bpt>...<ept id="p2">**</ept> and then select <bpt id="p3">**</bpt>Edit<ept id="p3">**</ept>.
+8.  按一下 **[編輯]** 。 如果未出現 [編輯] 功能表項目，請按一下 [...]，然後選取 [編輯]。
 
 您現在已設定好 Power BI 服務並可用於實驗室中。
 
@@ -64,15 +64,15 @@ Bellows College is an educational organization with multiple buildings on campus
 
 1.  按 [視覺效果] 面板中的 [圓形圖] 圖示以插入圖表。
 
-2.  Press the drop-down arrow beside <bpt id="p1">**</bpt>bc_building<ept id="p1">**</ept> in the Fields pane. Drag the <bpt id="p1">**</bpt>Building<ept id="p1">**</ept> field and drop it into <bpt id="p2">**</bpt>Legend<ept id="p2">**</ept> box.
+2.  在 [欄位] 窗格中，按 [bc_Visit] 旁邊的下拉式箭號。 拖曳 **[大樓]** 欄位，然後將其拖放至 **[圖例]** 方塊中。
 
-3.  Bellows College 是一個教育組織，校園內有多棟大樓。
+3.  拖曳 [造訪] 欄位，然後將其拖放至 [值] 方塊。
 
 4.  使用角落控點調整圓形圖大小，以便看到所有圖表元件。
 
 5.  按一下圓形圖外部的報告以取消選取，然後在 **[視覺效果]** 窗格中選取堆疊直條圖。
 
-6.  校園訪客目前記錄在紙本日誌中。
+6.  在 [欄位] 窗格中，按 [bc_Visit] 旁邊的下拉式箭號。 拖曳 [造訪情形] 欄位，然後將其拖放至 [Y 軸] 目標方塊中。
 
 7.  拖曳 [開始時間] 欄位，然後將其拖放至 [X 軸] 目標方塊中。
 
@@ -84,7 +84,7 @@ Bellows College is an educational organization with multiple buildings on campus
 
     1.  按一下圓形圖上不同的大樓圖塊，並觀察時間報告的變化。
 
-    2.  此資訊並未以一致的方式擷取，而且也無法收集和分析整個校園造訪情形的相關資料。
+    2.  按一下直條圖。 按向下箭號以開啟**向下鑽研**模式 (或以滑鼠右鍵按一下圖表並選取 [向下鑽研])，然後按一下資料行以向下鑽研至下一個層級 (天)。
 
     3.  向上及向下鑽研，然後選取時間直條圖上的不同直條以觀察圓形圖報告的變化。
 
@@ -96,13 +96,13 @@ Bellows College is an educational organization with multiple buildings on campus
 
 1.  您應該透過上一個工作將報告保持開啟狀態。
 
-2.  Select <bpt id="p1">**</bpt>Pin to a dashboard<ept id="p1">**</ept> on the menu. Depending on the layout you may need to press <bpt id="p1">**</bpt>...<ept id="p1">**</ept> to show additional menu items.
+2.  選取功能表上的 **[釘選到儀表板]** 。 視版面配置之不同，可能需要按 [...] 才會顯示其他功能表項目。
 
 3.  在 **[釘選到儀表板]** 提示出現時，選取 **[新的儀表板]** 。
 
 4.  輸入 [校園管理] 做為 [儀表板名稱]，然後按下 [動態釘選]。
 
-5.  A pop-up will prompt you that the dashboard has been created. Select <bpt id="p1">**</bpt>Go to dashboard<ept id="p1">**</ept>.
+5.  快顯視窗會提示您已建立儀表板。 選取 [移至儀表板]****。
 
 6.  測試顯示之圓形圖和長條圖的互動功能。
 
@@ -110,7 +110,7 @@ Bellows College is an educational organization with multiple buildings on campus
 
 1.  在 **[校園管理]** 儀表板中，選取位於頂端的 **[詢問有關資料的問題]** 列。
 
-2.  Enter <bpt id="p1">**</bpt>buildings by number of visits<ept id="p1">**</ept> in Q&amp;A area. A bar chart will be displayed.
+2.  在 [問與答] 區域中輸入**依造訪情形的數量顯示大樓**。 系統將會顯示長條圖。
 
 3.  選取 **[釘選視覺效果]** 。
 
@@ -118,7 +118,7 @@ Bellows College is an educational organization with multiple buildings on campus
 
 5.  按一下 **[結束問與答]** 。
 
-Your <bpt id="p1">**</bpt>Campus Management<ept id="p1">**</ept> dashboard should be displayed with three visuals on it. You may have to scroll down to see the new Q&amp;A visual.
+您的 [校園管理] 儀表板中應該會顯示三個視覺效果。 您可能需要向下捲動才能看到新的問與答視覺效果。
 
 您的儀表板看起來應類似於下圖：
 
