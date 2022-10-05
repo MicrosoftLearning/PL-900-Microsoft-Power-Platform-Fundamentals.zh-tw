@@ -2,20 +2,15 @@
 lab:
   title: 實驗室 2：如何建置畫布應用程式
   module: 'Module 3: Get started with Power Apps'
-ms.openlocfilehash: 9a9a447ac07176e7f7ed3471c105b2d06fa60c97
-ms.sourcegitcommit: 8a89b7eacd1a65eaa7c5d6bff0dc7254991c4dde
-ms.translationtype: HT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "147154428"
 ---
+
 # <a name="lab-2-how-to-build-a-canvas-app"></a>實驗室 2：如何建置畫布應用程式
 
 ## <a name="scenario"></a>案例
 
-Bellows College 是一個教育組織，校園內有多棟大樓。 校園訪客造訪情況目前記錄在紙本日誌中。 此資訊並未以一致的方式擷取，而且也無法收集和分析整個校園造訪情形的相關資料。
+Bellows College is an educational organization with multiple buildings on campus. Campus visits are currently recorded in paper journals. The information is not captured consistently, and there are no means to collect and analyze data about the visits across the entire campus.
 
-目前，校園行政單位利用 Excel 試算表來追蹤訪客登記。 他們想要更新其訪客登記系統，讓保全人員控管各棟大樓的出入狀況，且所有造訪情形都必須由大樓負責人預先登記和記錄。
+Currently, campus administration is leveraging an Excel spreadsheet to track visitor registration. They would like to modernize their visitor registration system where access to the buildings is controlled by security personnel and all visits are required to be pre-registered and recorded by their hosts.
 
 在整個課程中，您將建立應用程式並執行自動化功能，以便 Bellows College 的行政和保全人員能夠管理及控管校內大樓的出入狀況。
 
@@ -33,8 +28,8 @@ Bellows College 是一個教育組織，校園內有多棟大樓。 校園訪客
 
 ## <a name="prerequisites"></a>必要條件
 
-- 完成 **單元 0 實驗室 0：驗證實驗室環境**
-- 完成 **課程模組 2 實驗室 1 - 資料模型化**
+- 完成**單元 0 實驗室 0：驗證實驗室環境**
+- 完成**課程模組 2 實驗室 1 - 資料模型化**
 
 ## <a name="exercise-1-create-visits-canvas-app"></a>練習 1：建立造訪情形畫布應用程式
 
@@ -42,11 +37,11 @@ Bellows College 是一個教育組織，校園內有多棟大樓。 校園訪客
 
 ### <a name="task-1-create-the-visits-app"></a>工作 \#1：建立造訪情形應用程式
 
-1.  瀏覽至 <https://make.powerapps.com>。 您可能需要重新驗證：如有需要，請按一下 **[登入]** ，然後依照指示操作。
+1.  Navigate to <ph id="ph1">&lt;https://make.powerapps.com&gt;</ph>. You may need to reauthenticate - click <bpt id="p1">**</bpt>Sign in<ept id="p1">**</ept> and follow instructions if needed.
 
 2.  如果尚未選取，請在右上方選取您的 [[我的縮寫名] 練習] 環境。
 
-3.  如有必要，按一下畫面左側的 **首頁** 圖示。 在 [起始] 區段底下，選取 [Dataverse]。
+3.  If necessary, click the <bpt id="p1">**</bpt>Home<ept id="p1">**</ept> icon on the left side of the screen. Under the <bpt id="p1">**</bpt>Start from<ept id="p1">**</ept> section, select <bpt id="p2">**</bpt>Dataverse<ept id="p2">**</ept>.
 
 4.  選取您的 Dataverse 連線。
 
@@ -65,17 +60,17 @@ Bellows College 是一個教育組織，校園內有多棟大樓。 校園訪客
 
 ![從造訪資料建立的畫布應用程式。](media/2-canvas-app-from-data.png)
 
-9. 在應用程式設計工具中，選取命令列上的 [預覽應用程式] 按鈕 ([播放] 圖示)。 *(您也可以在鍵盤上按 F5 來預覽應用程式。)* 查看一下，了解應用程式成品的運作方式。
+9. Bellows College 是一個教育組織，校園內有多棟大樓。
 
 10. 選取畫面右上角的 [X] 關閉應用程式預覽。
 
-恭喜，您已成功從 Dataverse 資料表建立 Power App。 程序中的下一個步驟是量身打造應用程式，以符合您大學的品牌。 下一系列的步驟將逐步引導您提供一些額外的自訂給應用程式。
+校園訪客造訪情況目前記錄在紙本日誌中。
 
 ### <a name="task-2-modify-and-theme-the-newly-created-app"></a>工作 \#2：修改新建立的應用程式並設定其主題
 
 在此工作中，您將會為您應用程式的三個畫面 (瀏覽、詳細資料和編輯) 自訂標題文字，以及變更應用程式主題。
 
-1.  您在 [瀏覽] 畫面上。 選取畫面上的 [造訪情形] 標籤。
+1.  此資訊並未以一致的方式擷取，而且也無法收集和分析整個校園造訪情形的相關資料。
 
 1.  在畫面右側的 [屬性] 索引標籤下，將 [文字] 控制項屬性更新為「Bellows College 造訪情形」。
 
@@ -113,12 +108,12 @@ Bellows College 是一個教育組織，校園內有多棟大樓。 校園訪客
 
 3.  使用左側的巡覽功能，選取 **BrowseScreen1**。
 
-4.  在應用程式設計工具中，選取命令列上的 [預覽應用程式] 按鈕 ([播放] 圖示)。 *(您也可以在鍵盤上按 F5 來預覽應用程式。)*
+4.  In the app designer, select the <bpt id="p1">**</bpt>preview the app<ept id="p1">**</ept> button (Play icon) on the command bar. <bpt id="p1">*</bpt>(You can also preview the app by pressing F5 on your keyboard.)<ept id="p1">*</ept>
 
 4.  應用程式開啟後，在 [搜尋項目] 欄位中，輸入文字 **Maria**
-     *(注意資源庫中的項目如何根據搜尋欄位中輸入的內容進行篩選)。*
+    * (注意資源庫中的項目如何根據搜尋欄位中輸入的內容進行篩選)。*
 
-5.  **Maria Campbell** 的 **Contoso Suites** 記錄顯示後，按一下資料列以巡覽來開啟該造訪的詳細資料。 (**注意**：*如果顯示多個 Contoso 套件 Maria Campbell 記錄，請選取其中任何一筆記錄*)
+5.  目前，校園行政單位利用 Excel 試算表來追蹤訪客登記。
 
 6.  若要編輯記錄，請選取應用程式右上角的 [鉛筆圖示]。
 
@@ -126,7 +121,7 @@ Bellows College 是一個教育組織，校園內有多棟大樓。 校園訪客
 
 8.  按一下畫面右上角的 [X] 圖示返回畫布應用程式編輯器。
 
-恭喜！ 您已建立並設定第一個畫布應用程式。
+他們想要更新其訪客登記系統，讓保全人員控管各棟大樓的出入狀況，且所有造訪情形都必須由大樓負責人預先登記和記錄。
 
 ## <a name="challenges"></a>挑戰
 
