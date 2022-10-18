@@ -8,7 +8,7 @@ lab:
 
 ## <a name="scenario"></a>案例
 
-Bellows College is an educational organization with multiple buildings on campus. Campus visitors are currently recorded in paper journals. The information is not captured consistently, and there are no means to collect and analyze data about the visits across the entire campus.
+Bellows College 是一個教育組織，校園內有多棟大樓。 校園訪客目前記錄在紙本日誌中。 此資訊並未以一致的方式擷取，而且也無法收集和分析整個校園造訪情形的相關資料。
 
 校園行政單位想要更新其訪客登記系統，讓保全人員控管各棟大樓的出入狀況，且所有造訪情形都必須由大樓負責人預先登記和記錄。
 
@@ -31,11 +31,11 @@ Bellows College is an educational organization with multiple buildings on campus
 
 ## <a name="exercise-1-create-visit-notification-flow"></a>練習 1：建立造訪通知流程
 
-<bpt id="p1">**</bpt>Objective:<ept id="p1">**</ept> In this exercise, you will create a Power Automate flow that implements the requirement. The visitor should be sent an email that includes the unique code assigned to the visit when a visit is created.
+**目標：** 在此練習中，您將建立可實作需求的 Power Automate 流程。 造訪建立時，訪客應該會收到一封電子郵件，其中含有針對造訪情形指派的唯一代碼。
 
 ### <a name="task-1-create-a-flow"></a>工作 \#1：建立流程
 
-1.  Navigate to <ph id="ph1">&lt;https://make.powerapps.com&gt;</ph>. You may need to reauthenticate - click <bpt id="p1">**</bpt>Sign in<ept id="p1">**</ept> and follow instructions if needed.
+1.  瀏覽至 <https://make.powerapps.com>。 您可能需要重新驗證：如有需要，請按一下 **[登入]** ，然後依照指示操作。
 
 2.  如果尚未選取，請在右上方選取您的 [[我的縮寫名] 練習] 環境。
 
@@ -59,11 +59,11 @@ Bellows College is an educational organization with multiple buildings on campus
 
     3.  選取 **[組織]** 做為 **[範圍]**
 
-    4.  On the trigger step, click the ellipsis (<bpt id="p1">**</bpt>...<ept id="p1">**</ept>) and click <bpt id="p2">**</bpt>Rename<ept id="p2">**</ept>. Rename this trigger <bpt id="p1">**</bpt>"When a visit is added"<ept id="p1">**</ept>. This is a good practice, so you and other flow editors can understand the purpose of the step without having to dive into the details.
+    4.  按一下觸發程序步驟上的省略符號 ( [...])，然後按一下 [重新命名]。 將此觸發程序重新命名為 **"When a visit is added"** 。 這是個很好的練習，讓您和其他流程編輯者均可瞭解步驟的目的，而不必深入探討細節。
 
 ### <a name="task-2-create-a-step-to-get-the-visitor-row"></a>工作 \#2：建立用以取得訪客資料列的步驟
 
-1.  Bellows College 是一個教育組織，校園內有多棟大樓。
+1.  選取 [+ 新步驟] 。 此為擷取訪客資訊 (包括電子郵件地址) 的必要步驟。
 
 2.  搜尋 **Dataverse**。
 
@@ -71,16 +71,16 @@ Bellows College is an educational organization with multiple buildings on campus
 
 4.  選取 **[連絡人]** 做為 **[資料表名稱]**
 
-5.  校園訪客目前記錄在紙本日誌中。
+5.  選取 [資料列識別碼] 欄位。 請注意，會出現視窗提示您選取 Dynamic 內容或運算式。
 
-6.  此資訊並未以一致的方式擷取，而且也無法收集和分析整個校園造訪情形的相關資料。
+6.  在 **[資料列識別碼]** 欄位中，從 [動態內容清單] 中選取 **[訪客 (值)]** 。 在此步驟中，您會尋找 [造訪情形] 資料列的連絡人，其建立用途是觸發此流程。 因為電子郵件地址是 [連絡人] 資料表的一部份，所以您需要此資訊以將電子郵件傳送給訪客。
 
-7.  On this action, click the ellipsis (<bpt id="p1">**</bpt>...<ept id="p1">**</ept>) and click <bpt id="p2">**</bpt>Rename<ept id="p2">**</ept>.
-        Rename this action <bpt id="p1">**</bpt>"Get the Visitor"<ept id="p1">**</ept>. This is a good practice, so you and other flow editors can understand the purpose of the step without having to dive into the details.
+7.  按一下此動作上的省略符號 ([...])，然後按一下 [重新命名]。
+        將此動作重新命名為 **「取得訪客」** 。 這是個很好的練習，讓您和其他流程編輯者均可瞭解步驟的目的，而不必深入探討細節。
 
 ### <a name="task-3-create-a-step-to-send-an-email-to-the-visitor"></a>工作 \#3：建立用以將電子郵件傳送給訪客的步驟
 
-1.  Click <bpt id="p1">**</bpt>+ New step<ept id="p1">**</ept>. This is the step that will send an email to the visitor.
+1.  按一下 [+ 新增步驟]。 這是會將電子郵件傳送給訪客的步驟。
 
 2.  搜尋*郵件*，再依序選取 [Office 365 Outlook]連接器及 [傳送電子郵件 (V2)] 動作。
 
@@ -97,7 +97,7 @@ Bellows College is an educational organization with multiple buildings on campus
 
 7.  在 **[電子郵件本文]** 中輸入下列文字：
 
->   Dynamic content needs to be placed where fields are named in brackets. It is recommended to copy &amp; paste all text first and then add dynamic content in the correct places.
+>   名稱括以括號的欄位，必須置入動態內容。 建議您先複製並貼上所有文字，然後再於正確的位置中新增動態內容。
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
    Dear {First Name},
@@ -110,15 +110,15 @@ Bellows College is an educational organization with multiple buildings on campus
    Bellows College
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-8.  Highlight the <bpt id="p1">**</bpt>{First Name}<ept id="p1">**</ept> text. Replace it with the <bpt id="p1">**</bpt>First Name<ept id="p1">**</ept> field from the <bpt id="p2">**</bpt>Get the Visitor<ept id="p2">**</ept> step.
+8.  醒目提示 **{First Name}** 文字。 將其取代為 [取得訪客] 步驟中的 [名字] 欄位。
 
-9.  Highlight the <bpt id="p1">**</bpt>{Scheduled Start}<ept id="p1">**</ept> text. Replace it with the <bpt id="p1">**</bpt>Scheduled Start<ept id="p1">**</ept> field <bpt id="p2">**</bpt>When a visit is added<ept id="p2">**</ept> step.
+9.  醒目提示 **{Scheduled Start}** 文字。 將其取代為 [當造訪新增時] 步驟中的 [排定開始時間] 欄位。
 
-10.  Highlight the <bpt id="p1">**</bpt>{Scheduled End}<ept id="p1">**</ept> text. Replace it with the <bpt id="p1">**</bpt>Scheduled End<ept id="p1">**</ept> field from the <bpt id="p2">**</bpt>When a visit is added<ept id="p2">**</ept> step.
+10.  醒目提示 **{Scheduled End}** 文字。 將其取代為 [當造訪新增時] 步驟中的 [排定結束時間] 欄位。
 
 11.  按一下 [儲存]。
 
-Leave this flow tab open for the next task. You flow should look approximately like the following:
+保持此流程索引標籤處於開啟狀態，以供下一個工作使用。 您的流程看起來應近似於下圖：
 
 ![流程步驟的範例。](media/4-Flow.png)
 
@@ -132,7 +132,7 @@ Leave this flow tab open for the next task. You flow should look approximately l
 
 3.  保持此瀏覽器索引標籤處於開啟狀態，然後導覽回之前的流程索引標籤。
 
-4.  On the command bar, click <bpt id="p1">**</bpt>Test<ept id="p1">**</ept>. Select <bpt id="p1">**</bpt>Manually<ept id="p1">**</ept> and then click <bpt id="p2">**</bpt>Test<ept id="p2">**</ept>.
+4.  在命令列上按一下 **[測試]** 。 選取 [手動] 然後按一下 [測試]。
 
 5.  保持模型驅動應用程式開啟，並巡覽至瀏覽器索引標籤。 
 
@@ -152,10 +152,10 @@ Leave this flow tab open for the next task. You flow should look approximately l
 
 8. 選取**儲存後關閉**按鈕。
 
-9. Navigate to the browser tab with your flow test running. After a short delay, you should see the flow running. This is where you can catch any issues in the flow or confirm that it ran successfully.
+9. 保持流程測試執行，並巡覽至瀏覽器索引標籤。 短暫延遲之後，您應該會看到流程正在執行。 您可以在其中攔截任何流程中的問題，或確認流程已成功執行。
 
-After a short delay, you should see an email in your inbox, since you populated John Doe's email as your personal email. Note that it may go to your Junk Email folder.
+短暫延遲之後，您應會在收件匣中看到一封電子郵件，因為您已填入 John Doe 的電子郵件作為您的個人電子郵件。 請注意，它可能會移至您的垃圾郵件資料夾。
 
 ## <a name="challenges"></a>挑戰
 
-- Play around with the formatting on the email. How can you make it more professional looking?
+- 在電子郵件上進行格式設定。 如何讓其具有更專業的外觀？
