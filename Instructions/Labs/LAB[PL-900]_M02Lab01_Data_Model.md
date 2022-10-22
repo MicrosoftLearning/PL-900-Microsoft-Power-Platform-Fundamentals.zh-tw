@@ -8,13 +8,13 @@ lab:
 
 ## <a name="scenario"></a>案例
 
-Bellows College is an educational organization with multiple buildings on campus. Campus visits are currently recorded in paper journals. The information is not captured consistently, and there are no means to collect and analyze data about the visits across the entire campus.
+Bellows College 是一個教育組織，校園內有多棟大樓。 校園訪客造訪情況目前記錄在紙本日誌中。 此資訊並未以一致的方式擷取，而且也無法收集和分析整個校園造訪情形的相關資料。
 
 校園行政單位想要更新其訪客登記系統，讓保全人員控管各棟大樓的出入狀況，且所有造訪情形都必須由大樓負責人預先登記和記錄。
 
 在整個課程中，您將建立應用程式並執行自動化功能，以便 Bellows College 的行政和保全人員能夠管理及控管校內大樓的出入狀況。
 
-In this lab you will access your environment, create a Microsoft Dataverse database, and create a solution to track your changes. You will also create a data model to support the following requirements:
+在此實驗室中，您將存取自己的環境、建立 Microsoft Dataverse 資料庫，以及建立可追蹤變更的解決方案。 此外，您也會建立資料模型以支援下列需求：
 
 - R1 – 追蹤預定的校園造訪資訊
 
@@ -28,7 +28,7 @@ In this lab you will access your environment, create a Microsoft Dataverse datab
 
 為準備您的學習環境，您必須：
 
-- Refer to the <bpt id="p1">[</bpt>data model document<ept id="p1">](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/blob/master/Allfiles/Campus%20Management.png)</ept> for the metadata description (tables and relationships). You can hold CTRL+click or right click the link to open the data model document in a new window.
+- 如需中繼資料描述 (資料表和關聯性)，請參閱[資料模型文件](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/blob/master/Allfiles/Campus%20Management.png)。 您可以按住 CTRL 並在連結上按一下滑鼠左鍵，或在連結上按一下滑鼠右鍵，以在新視窗中開啟資料模型文件。
 - 建立 [造訪情形] 資料表
 - 使用 Excel 試算表匯入造訪情形資料
 
@@ -166,7 +166,7 @@ In this lab you will access your environment, create a Microsoft Dataverse datab
 
 在此工作中，您將會從 Excel 檔案匯入造訪情形資料。
 
-1. You should have the <bpt id="p1">**</bpt>Visits.xlsx<ept id="p1">**</ept> file stored on your Desktop. Download <bpt id="p1">[</bpt>Visits.xlsx<ept id="p1">](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/raw/master/Allfiles/Visits.xlsx)</ept> if you do not.
+1. 您應將 **Visits.xlsx** 檔案儲存在桌面上。 請下載 [Visits.xlsx](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/raw/master/Allfiles/Visits.xlsx) 檔案 (若您尚未下載)。
 
 2. 若尚未登入，請登入 [https://make.powerapps.com](https://make.powerapps.com/)。
 
@@ -180,7 +180,7 @@ In this lab you will access your environment, create a Microsoft Dataverse datab
 
 7. 在隨後出現的功能表中，選取 [上傳] 按鈕。
 
-8. Bellows College 是一個教育組織，校園內有多棟大樓。
+8. 找到並選取您稍早已下載的 **Visits.xlsx** 檔案。 (請注意，上傳檔案可能會需要一或兩分鐘的時間。 如果出現對應錯誤的訊息，請無需擔心，我們稍後會修正這些問題。)
 
 9. 按一下 [對應資料行] (請注意，您可能需要向右捲動，才能看到 [對應資料行] 選項)。
 
@@ -203,7 +203,7 @@ In this lab you will access your environment, create a Microsoft Dataverse datab
 
 14. 選取右上角的 [匯入] 以完成資料匯入。
 
-校園訪客造訪情況目前記錄在紙本日誌中。
+**注意：** 將資料匯入資料表可能需要花費數分鐘的時間。 如果出現一些錯誤，請無需擔心，這是正常的情況且不會影響課程的其餘部分。
 
 15. 按一下 **X** 以關閉匯入資料面板。
 
