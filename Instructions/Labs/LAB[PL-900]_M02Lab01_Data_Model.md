@@ -164,7 +164,7 @@ Bellows College 是一個教育組織，校園內有多棟大樓。 校園訪客
 
 ### <a name="task-11-load-excel-file-to-onedrive"></a>工作 \#1.1：將 Ecel 檔案載入至 OneDrive
 
-1. 您應將 **Visits.xlsx** 檔案儲存在桌面上。 請下載 [Visits.xlsx](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/raw/master/Allfiles/Visits.xlsx) 檔案 (若您尚未下載)。
+1. 您應該將 **Visits.xlsx** 檔案儲存在虛擬機器上的 **C:/LabFiles** 中。 請下載 [Visits.xlsx](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/raw/master/Allfiles/Visits.xlsx) 檔案 (若您尚未下載)。
 
 2. 若尚未登入，請登入 [https://make.powerapps.com](https://make.powerapps.com/)。
 
