@@ -1,15 +1,7 @@
----
-ms.openlocfilehash: 4ed3e8f1b4b97a760aeb60cff93ad06b89fedd6a
-ms.sourcegitcommit: ef58c858463b890e923ef808b1d43405423943fd
-ms.translationtype: HT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 01/27/2022
-ms.locfileid: "137898872"
----
 # <a name="pl-900-power-platform-fundamentals"></a>PL-900：Power Platform 基本概念
 
 - **[下載最新摸摸學員手冊和 AllFiles 內容](../../releases/latest)**
-- **您是 MCT 嗎？** 請參閱我們專為 MCT 準備的 [GitHub User Guide for MCTs](https://microsoftlearning.github.io/MCT-User-Guide/) (適用於 MCT 的 GitHub 使用者指南)
+- **您是 MCT 嗎？** 請參閱我們專為 MCT 準備的[適用於 MCT 的 GitHub 使用者指南](https://microsoftlearning.github.io/MCT-User-Guide/) (英文)
 - **需要手動建立實驗室指示嗎？** - [MicrosoftLearning/Docker-Build](https://github.com/MicrosoftLearning/Docker-Build) 存放庫中備有指示
 
 ## <a name="what-are-we-doing"></a>我們要做什麼？
@@ -18,7 +10,7 @@ ms.locfileid: "137898872"
 
 - 希望這樣做能在實驗室中打造一種前所未有的共同作業模式，也就是說，當 Power Platform 變更，而您先在即時授課期間發現該變更，您可以直接在實驗室原始碼中進行強化。  幫助您的 MCT 同業。
 
-## <a name="how-should-i-use-these-files-relative-to-the-released-moc-files"></a>我該如何使用與相對於已釋放的 MOC 檔案之這些檔案？
+## <a name="how-should-i-use-these-files-relative-to-the-released-moc-files"></a>相對於發佈的 MOC 檔案，我應該如何使用這些檔案？
 
 - 講師手冊和 PowerPoints 仍然會成為您教導課程內容的主要來源。
 
