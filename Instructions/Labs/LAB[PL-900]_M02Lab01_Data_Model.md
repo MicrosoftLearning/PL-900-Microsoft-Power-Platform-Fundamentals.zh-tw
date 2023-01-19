@@ -14,7 +14,7 @@ Bellows College 是一個教育組織，校園內有多棟大樓。 校園訪客
 
 在整個課程中，您將建立應用程式並執行自動化功能，以便 Bellows College 的行政和保全人員能夠管理及控管校內大樓的出入狀況。
 
-在此實驗室中，您將存取自己的環境、建立 Microsoft Dataverse 資料庫，以及建立可追蹤變更的解決方案。 此外，您也會建立資料模型以支援下列需求：
+在此實驗室中，您將存取自己的環境、建立 Microsoft Dataverse 資料庫。 此外，您也會建立資料模型以支援下列需求：
 
 - R1 – 追蹤預定的校園造訪資訊
 
@@ -23,6 +23,7 @@ Bellows College 是一個教育組織，校園內有多棟大樓。 校園訪客
 - R3：排定、記錄及管理造訪情形
 
 最後，您會將範例資料匯入至 Microsoft Dataverse。
+
 
 ## <a name="high-level-lab-steps"></a>高階實驗室步驟
 
@@ -40,9 +41,11 @@ Bellows College 是一個教育組織，校園內有多棟大樓。 校園訪客
 
 - 命名慣例 - 小心地鍵入名稱。
 
+
 ## <a name="exercise-1-create-new-table"></a>練習 1：建立新資料表
 
 **目標：** 在此練習中，您將會為造訪情形建立新的自訂資料表。
+
 
 ### <a name="task-1-create-visit-table-and-columns"></a>工作 \#1：建立「造訪情形」資料表和資料行
 
@@ -170,7 +173,7 @@ Bellows College 是一個教育組織，校園內有多棟大樓。 校園訪客
 
 3. 如果尚未選取，請在右上方選取您的 [[我的縮寫名] 練習] 環境。
 
-4. 按一下左上角的鬆餅按鈕，以變更應用程式，然後選取 [OneDrive]。 (OneDrive 設定可能需要一些時間。 在畫面上看到 [您的 OneDrive 已準備就緒] 時，請按一下。)
+4. 按一下左上角的鬆餅按鈕，以變更應用程式，然後選取 [OneDrive]。 (OneDrive 設定可能需要一些時間。 在畫面上看到 [您的 OneDrive 已就緒] 時，請加以按一下。)
 
 5. 按一下頂端功能表中的 [上傳]，然後選取 [檔案]。
 
@@ -210,14 +213,14 @@ Bellows College 是一個教育組織，校園內有多棟大樓。 校園訪客
 
 15. 在 [資料行對應] 上， 將 [資料行] 對應至相應的目的地資料行。
 
-| 目的地資料行| 來源資料行 |
-| - | - |
-| crxxx_ActualEnd| 實際結束時間 |
-| crxxx_ActualStart| 實際開始時間 |
-| crxxx_Code| code |
-| crxxx_Name| NAME |
-| crxxx_ScheduledEnd| 排定結束時間 |
-| crxxx_ScheduledStart| 排定開始時間 |
+| 目的地資料行  | 來源資料行   |
+|:---------------------|:----------------|
+| crxxx_ActualEnd      | 實際結束時間      |
+| crxxx_ActualStart    | 實際開始時間    |
+| crxxx_Code           | code            |
+| crxxx_Name           | NAME            |
+| crxxx_ScheduledEnd   | 排定結束時間   |
+| crxxx_ScheduledStart | 排定開始時間 |
 
 16. 按一下 [下一步] 。
 
