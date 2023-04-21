@@ -4,9 +4,9 @@ lab:
   module: 'Module 2: Introduction to Microsoft Dataverse'
 ---
 
-# <a name="lab-1-data-modeling"></a>實驗室 1:資料模型
+# 實驗室 1:資料模型
 
-## <a name="scenario"></a>案例
+## 案例
 
 Bellows College 是一個教育組織，校園內有多棟大樓。 校園訪客造訪情況目前記錄在紙本日誌中。 此資訊並未以一致的方式擷取，而且也無法收集和分析整個校園造訪情形的相關資料。
 
@@ -25,7 +25,7 @@ Bellows College 是一個教育組織，校園內有多棟大樓。 校園訪客
 最後，您會將範例資料匯入至 Microsoft Dataverse。
 
 
-## <a name="high-level-lab-steps"></a>高階實驗室步驟
+## 高階實驗室步驟
 
 為準備您的學習環境，您必須：
 
@@ -33,21 +33,21 @@ Bellows College 是一個教育組織，校園內有多棟大樓。 校園訪客
 - 建立 [造訪情形] 資料表
 - 使用 Excel 試算表匯入造訪情形資料
 
-## <a name="prerequisites"></a>必要條件
+## 必要條件
 
 - 完成**單元 0 實驗室 0：驗證實驗室環境**
 
-## <a name="things-to-consider-before-you-begin"></a>開始前要考慮的事項
+## 開始前要考慮的事項
 
 - 命名慣例 - 小心地鍵入名稱。
 
 
-## <a name="exercise-1-create-new-table"></a>練習 1：建立新資料表
+## 練習 1：建立新資料表
 
 **目標：** 在此練習中，您將會為造訪情形建立新的自訂資料表。
 
 
-### <a name="task-1-create-visit-table-and-columns"></a>工作 \#1：建立「造訪情形」資料表和資料行
+### 工作 \#1：建立「造訪情形」資料表和資料行
 
 [造訪情形] 資料表將包含校園造訪情形的相關資訊，包括訪客、每個造訪情形的預定時間和實際時間。
 
@@ -161,11 +161,11 @@ Bellows College 是一個教育組織，校園內有多棟大樓。 校園訪客
 
     - 按一下 [檔案]  。
 
-## <a name="exercise-2-import-data"></a>練習 2：匯入資料
+## 練習 2：匯入資料
 
 **目標：** 在此練習中，您會將範例資料匯入至 Dataverse 資料庫。
 
-### <a name="task-11-load-excel-file-to-onedrive"></a>工作 \#1.1：將 Ecel 檔案載入至 OneDrive
+### 工作 \#1.1：將 Ecel 檔案載入至 OneDrive
 
 1. 您應該將 **Visits.xlsx** 檔案儲存在虛擬機器上的 **C:/LabFiles** 中。 請下載 [Visits.xlsx](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/raw/master/Allfiles/Visits.xlsx) 檔案 (若您尚未下載)。
 
@@ -181,7 +181,7 @@ Bellows College 是一個教育組織，校園內有多棟大樓。 校園訪客
 
  **注意：** 此檔案會位於您機器上的 [所有檔案] 資料夾內。
  
-### <a name="task-12-create-a-dataflow"></a>工作 \#1.2：建立資料流程
+### 工作 \#1.2：建立資料流程
 
 1. 若尚未登入，請登入 [https://make.powerapps.com](https://make.powerapps.com/)。
 
@@ -230,7 +230,7 @@ Bellows College 是一個教育組織，校園內有多棟大樓。 校園訪客
 
 **注意：** 將資料匯入資料表可能需要花費數分鐘的時間。 如果出現一些錯誤，請無需擔心，這是正常的情況且不會影響課程的其餘部分。
 
-### <a name="task-3-verify-data-import"></a>工作 \#3：確認資料匯入
+### 工作 \#3：確認資料匯入
 
 1. 匯入資料後，請使用畫面左側的瀏覽，再次選取 [瀏覽] 資料表。
 
