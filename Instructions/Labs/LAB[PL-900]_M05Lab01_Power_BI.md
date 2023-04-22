@@ -4,9 +4,9 @@ lab:
   module: 'Module 5: Get Started with Power BI'
 ---
 
-## <a name="lab-5-how-to-build-a-simple-dashboard"></a>實驗室 5：如何建立簡單的儀表板
+## 實驗室 5：如何建立簡單的儀表板
 
-## <a name="scenario"></a>案例
+## 案例
 
 Bellows College 是一個教育組織，校園內有多棟大樓。 校園訪客目前記錄在紙本日誌中。 此資訊並未以一致的方式擷取，而且也無法收集和分析整個校園造訪情形的相關資料。
 
@@ -16,7 +16,7 @@ Bellows College 是一個教育組織，校園內有多棟大樓。 校園訪客
 
 在此實驗室中，您將建立可視覺化校園造訪情形相關資料的 Power BI 報表和儀表板。
 
-## <a name="high-level-lab-steps"></a>高階實驗室步驟
+## 高階實驗室步驟
 
 我們將依照下列步驟設計和建立 Power BI 儀表板：
 
@@ -24,43 +24,46 @@ Bellows College 是一個教育組織，校園內有多棟大樓。 校園訪客
 
 -   利用使用者自然語言建立其他視覺效果
 
-## <a name="prerequisites"></a>必要條件
+## 必要條件
 
 - 完成**單元 0 實驗室 0：驗證實驗室環境**
 - 完成**課程模組 2 實驗室 1 - 資料模型化**
 
-## <a name="things-to-consider-before-you-begin"></a>開始前要考慮的事項
+## 開始前要考慮的事項
 
 -   誰是報告的目標對象？
 -   這些對象會如何使用報告？ 一般裝置？ 位置？
 -   您是否有足夠的資料可以視覺化？
 -   您可以用於分析造訪情形相關資料的可能特性有哪些？
 
-## <a name="exercise-1-create-power-bi-report"></a>練習 1：建立 Power BI 報告
+## 練習 1：建立 Power BI 報告
 
 **目標：** 在此練習中，您會根據我們在上一個練習中運用的 Excel 試算表資料，建立 Power BI 報表。
 
-### <a name="task-1-prepare-power-bi-service"></a>工作 \#1：Power BI 服務的準備工作
+### 工作 \#1：Power BI 服務的準備工作
 
-1.  下載 [visits.pbix](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/raw/master/Allfiles/visits.pbix) 並儲存在您的電腦上。
+1.  您應該將 visits.pbix 檔案儲存在虛擬機器上的 C:/LabFiles 中。 下載 [visits.pbix](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/raw/master/Allfiles/visits.pbix) 並在您的電腦上儲存，如果尚未存在，請加以儲存。
 
-2.  視需要瀏覽至 <https://app.powerbi.com/> 並登入。
+2.  開啟新的索引標籤，並視需要瀏覽至 <https://app.powerbi.com/> 並登入。
 
-3.  在畫面左下角，選取 [取得資料]。
+3.  從左側導覽中選取 [我的工作區]。
 
-4.  在 [建立新內容] 區段中，選取 [檔案] 底下的 [取得] 按鈕。
+5.  選取 [上傳]，然後選取 [瀏覽]。
 
-5.  選取 [本機檔案]****。
+6.  找到並選取您之前下載的 **visits.pbix** 檔案。 
 
-6.  找到並選取您之前下載的 **visits.pbix** 檔案。
+7.  一旦資料載入完成，請選取 **visit** 報告。
 
-7.  資料載入完成後，請展開 [我的工作區] 選取**造訪情形**報告 (請注意，該[類型] 已設定為 [報告])。
+    請注意，[類型] 設定為 [報表]，請勿選取 [資料集]。
 
-8.  按一下 **[編輯]** 。 如果未出現 [編輯] 功能表項目，請按一下 [...]，然後選取 [編輯]。
+8.  選取 [編輯]。 
+
+    如果未出現 [編輯] 功能表項目，請按一下 […]，然後選取 [編輯]。
 
 您現在已設定好 Power BI 服務並可用於實驗室中。
 
-### <a name="task-2-create-chart-and-time-visualizations"></a>工作 \#2：建立圖表和時間視覺效果
+
+### 工作 \#2：建立圖表和時間視覺效果
 
 1.  按 [視覺效果] 面板中的 [圓形圖] 圖示以插入圖表。
 
@@ -90,9 +93,9 @@ Bellows College 是一個教育組織，校園內有多棟大樓。 校園訪客
 
 11. 按 [儲存] 以儲存行中的工作。
 
-## <a name="exercise-2-create-power-bi-dashboard"></a>練習 2：建立 Power BI 儀表板
+## 練習 2：建立 Power BI 儀表板
 
-### <a name="task-1-create-power-bi-dashboard"></a>工作 \#1：建立 Power BI 儀表板
+### 工作 \#1：建立 Power BI 儀表板
 
 1.  您應該透過上一個工作將報告保持開啟狀態。
 
@@ -106,7 +109,7 @@ Bellows College 是一個教育組織，校園內有多棟大樓。 校園訪客
 
 6.  測試顯示之圓形圖和長條圖的互動功能。
 
-### <a name="task-2-add-visualizations-using-natural-language"></a>工作 \#2：使用自然語言新增視覺效果
+### 工作 \#2：使用自然語言新增視覺效果
 
 1.  在 **[校園管理]** 儀表板中，選取位於頂端的 **[詢問有關資料的問題]** 列。
 
