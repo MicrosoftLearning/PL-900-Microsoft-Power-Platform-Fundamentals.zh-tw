@@ -46,7 +46,7 @@ Bellows College 是一個教育組織，校園內有多棟大樓。 校園訪客
 
 1.  您應該會有一個 visits.pbix 檔案儲存在桌面上 AllFiles 資料夾中的虛擬機器上。 下載 [visits.pbix](https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/raw/master/Allfiles/visits.pbix) 並儲存到您的電腦，如果尚未存在，請加以儲存。
 
-2.  開啟新的索引標籤，並視需要瀏覽至 <https://app.powerbi.com/> 並登入。
+2.  開啟新的索引標籤，並視需要瀏覽至 `https://app.powerbi.com` 並登入。
 
 3.  從左側導覽中選取 [我的工作區]****。
 
@@ -102,7 +102,7 @@ Bellows College 是一個教育組織，校園內有多棟大樓。 校園訪客
 
 1.  您應該透過上一個工作將報告保持開啟狀態。
 
-2.  選取功能表上的 **[釘選到儀表板]** 。 視版面配置而定，您可能需要選取 [...]**** 以顯示更多選項。
+2.  選取功能表上的 **[釘選到儀表板]** 。 視版面配置而定，您可能需要選取省略號功能表 **...** 以顯示更多選項。
 
 3.  在 **[釘選到儀表板]** 提示出現時，選取 **[新的儀表板]** 。
 
@@ -130,3 +130,4 @@ Bellows College 是一個教育組織，校園內有多棟大樓。 校園訪客
 您的儀表板看起來應類似於下圖：
 
 ![](media/5-powerbi-result.png)
+
