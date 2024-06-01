@@ -1,7 +1,7 @@
 ---
 lab:
   title: Bonus Lab：使用 Copilot 建置畫布應用程式
-  module: 'Module 3: Get started with Power Apps'
+  module: 'Module 3: Describe how to build applications with Microsoft Power Apps'
 ---
 
 # Bonus Lab：使用 Copilot 建置畫布應用程式

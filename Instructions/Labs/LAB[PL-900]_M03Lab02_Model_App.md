@@ -1,7 +1,7 @@
 ---
 lab:
   title: 實驗室 3：如何建置模型導向應用程式
-  module: 'Module 3: Get started with Power Apps'
+  module: 'Module 3: Describe how to build applications with Microsoft Power Apps'
 ---
 
 # 實驗室 3：如何建置模型導向應用程式

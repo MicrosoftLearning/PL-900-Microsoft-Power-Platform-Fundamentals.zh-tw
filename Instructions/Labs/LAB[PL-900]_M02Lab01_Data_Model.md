@@ -1,7 +1,7 @@
 ---
 lab:
   title: '實驗室 1:資料模型'
-  module: 'Module 2: Introduction to Microsoft Dataverse'
+  module: 'Module 2: Identify foundational components of Microsoft Power Platform'
 ---
 
 # 實驗室 1:資料模型
