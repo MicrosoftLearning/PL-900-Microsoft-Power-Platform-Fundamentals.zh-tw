@@ -26,6 +26,8 @@ Contoso 諮詢是一個專業服務組織，專門從事 IT 和 AI 諮詢服務�
 > [!IMPORTANT]
 > 此實驗室會使用 AI 來建置元件。 由於 AI 結果可能會有所不同，因此請務必注意，您的結果可能會與實驗室中定義的結果不同（但類似）。 實驗室中概述的基本概念將會是相同的，無論所建立的專案或所命名的內容為何。 如果資料表和數據行不完全相符，您可能需要調整為您建立的專案。*
 
+**您可以在這裡[找到此實驗室](https://myriumtechsolutions-my.sharepoint.com/:f:/p/derik_bormann/EnSzkatV6HlPvJBFUM8G6xkBd9flg9PfhBDKFW-yDZfPuw?e=v40ti4)的影像：**
+
 完成此練習 **的估計時間為 45 到 60** 分鐘。
 
 ## 工作 1：登入 Power Apps 並探索介面
