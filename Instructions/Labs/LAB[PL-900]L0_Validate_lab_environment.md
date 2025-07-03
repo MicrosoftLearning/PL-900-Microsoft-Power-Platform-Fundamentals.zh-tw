@@ -16,7 +16,7 @@ lab:
 
 租用戶不得轉換成付費訂用帳戶。 此課程中提供的租用戶仍是 Microsoft Corporation 的財產，我們保留隨時取得存取權和重新持有的權利。
 
-## 練習 1 – 存取Microsoft Power Platform
+## 練習 1：存取Microsoft Power Platform
 
 在此練習中，您將確認您可以存取 Power Apps。
 
@@ -57,3 +57,14 @@ lab:
 1. **選取瀏覽器右上方的 [命令**]，選取 [說明與意見反應 **]，然後選取 ****[關於Microsoft Edge**]。
 
 1. 視需要套用更新並重新啟動瀏覽器。
+
+## 練習 2：下載映像
+
+1. 在您的租使用者開啟瀏覽器視窗，然後輸入 https://github.com/MicrosoftLearning/PL-900-Microsoft-Power-Platform-Fundamentals/tree/master/Allfiles。
+2. 您會在螢幕快照中看到影像。
+
+![影像檔。](media/images.png)
+
+3. 選取 [下載 **] 圖示，分別開啟每個映像並下載**。
+
+![影像下載按鈕。](media/download-image.png)
